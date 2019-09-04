@@ -1,10 +1,13 @@
 {
   "name": "@seanmcp/share",
   "private": false,
-  "version": "0.0.0-prerelease",
+  "version": "0.0.0-prerelease.1",
   "description": "Share your code with the world",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "files": [
+    "./lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
