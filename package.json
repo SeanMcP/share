@@ -1,12 +1,12 @@
 {
   "name": "@seanmcp/share",
   "private": false,
-  "version": "0.0.0-prerelease.1",
+  "version": "0.0.0-prerelease.2",
   "description": "Share your code with the world",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "./lib"
+    "lib"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
