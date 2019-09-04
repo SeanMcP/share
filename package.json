@@ -3,23 +3,24 @@
   "private": false,
   "version": "1.0.0",
   "description": "Share your code with the world",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "terser --compress --mangle --output build.js -- index.js"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SeanMcP/share.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sean McPherson <sean@seanmcp.com> (https://github.com/seanmcp)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SeanMcP/share/issues"
   },
   "homepage": "https://github.com/SeanMcP/share#readme",
   "devDependencies": {
-    "terser": "^4.2.1"
+    "typescript": "^3.6.2"
   }
 }
