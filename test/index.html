@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Test</title>
+    <style>
+      .failure {
+        color: firebrick;
+      }
+      .success {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>HTML Test</h1>
+      <p>
+        It should expose the shared code on the <code>window</code> object in an
+        HTML environment.
+      </p>
+      <p id="result"></p>
+    </main>
+  </body>
+  <script src="../index.js"></script>
+  <script>
+    //   TEST
+    let result = document.getElementById("result");
+
+    if (window.hasOwnProperty("share")) {
+      result.textContent = "Success!";
+      result.classList.add("success");
+    } else {
+      result.textContent = "Failure!";
+      result.classList.add("failure");
+    }
+  </script>
+</html>
