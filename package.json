@@ -1,24 +1,25 @@
 {
-  "name": "@seanmcp/share",
-  "private": false,
-  "version": "0.0.0",
-  "description": "Share your code with the world",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SeanMcP/share.git"
-  },
-  "keywords": [],
-  "author": "Sean McPherson <sean@seanmcp.com> (https://github.com/seanmcp)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SeanMcP/share/issues"
-  },
-  "homepage": "https://github.com/SeanMcP/share#readme"
+    "name": "@seanmcp/share",
+    "private": false,
+    "version": "0.0.0",
+    "description": "Share your code with the world",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "postpublish": "git push --tags",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SeanMcP/share.git"
+    },
+    "keywords": [],
+    "author": "Sean McPherson <sean@seanmcp.com> (https://github.com/seanmcp)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SeanMcP/share/issues"
+    },
+    "homepage": "https://github.com/SeanMcP/share#readme"
 }
