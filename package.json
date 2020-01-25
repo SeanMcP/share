@@ -1,7 +1,7 @@
 {
   "name": "@seanmcp/share",
   "private": false,
-  "version": "0.0.0-prerelease.2",
+  "version": "0.0.0",
   "description": "Share your code with the world",
   "main": "index.js",
   "files": [
